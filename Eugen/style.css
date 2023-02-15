@@ -1,0 +1,94 @@
+
+.sectia1 {
+    display: flex;
+    flex-direction: row;
+    width: 1920px;
+}
+img {
+    background-image: url("../img/Rectangle 9.png");
+    display: flex;
+    width: 215px;
+    height: 214px;
+}
+.bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #191B1C;
+    width: 260px;
+    height: 325px;
+}
+
+.left {
+    width: 1040px;
+    height: 730px;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+}
+
+.right {
+    width: 880px;
+    height: 730px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    bottom: 500px;
+    background-image: url("../img/Rectangle 8.png");
+}
+
+.titlu {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.imagini {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+
+button {
+    color: white;
+    font-size: 30px;
+    border: 1px solid white;
+    background-color: transparent;
+    margin: 20px;
+}
+
+.linie2 {
+    border: 1px solid white;
+    width: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.linie1{
+    border: 1px solid white;
+    width: 120px;
+}
+h1{
+    font-size: 36px;
+}
+
+h2{
+    color: white;
+    font-size: 36px;
+    margin: 0;
+}
+h3 {
+    margin-top: 25px;
+    font-size: 18px;
+}
+p{
+    font-size: 16px;
+}
+.img1{
+  /*margin: 50px;*/
+}
