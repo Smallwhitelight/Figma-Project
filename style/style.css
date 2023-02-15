@@ -1,0 +1,138 @@
+.p_container{
+      display: flex;
+      flex-direction: column;
+}
+.p_up{
+    background-color: black;
+    width: 100%;
+    height: 356px;
+}
+.p_midle{
+    background-image: url('../img/pavelMidle.png');
+    width: 100%;
+    height: 394px;
+}
+.p_down{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.up_p_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p_title{
+    font-family: 'Playfair Display';
+    color:white;
+    font-size: 35px;
+    margin: 54px 0px 54px 0px;
+}
+.p_title + div{
+    border-top: 1px solid white;
+    width: 120px;
+}
+.p_up_reclama{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.p_up_reclama .up_reclama{
+    padding-right: 20px;
+}
+.up_img{
+    width: 255px;
+    height: 94px;
+}
+.p_midle{
+    display: flex;
+    justify-content: center;
+}
+.p_down_cards{
+    margin-top: 40px;
+    width: 350px;
+    padding-right: 20px;
+   }
+.p_down_content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.p_down_content p{
+   color: #FFFFFF;
+}
+
+.content{
+    width: auto;
+    height: 41px;
+    background-color: #0F0F0F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px  20px 0;
+
+}
+span{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #D0D0D0;
+    padding: 10px 20px;
+}
+.d_title{
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin: 40px 0;
+    color: #FFFFFF;
+}
+
+p{
+    margin: 0px;
+}
+.div_input{
+    width: auto;
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+form{
+    width: 350px;
+    height: 42px;
+
+}
+.input_text{
+    width: 200px;
+    height: 41px;
+    padding: 0 0 0 10px;
+    background: rgba(255, 255, 255, 0.4);
+    appearance: none;
+}
+.input_text::placeholder{
+    opacity: 60%;
+    color: white;
+}
+input[type="submit"]{
+    width: 135px;
+    height: 42px;
+    background-color: #0F0F0F;
+}
+.input_text , input[type="submit"]{
+    border: none;
+    color:  #FFFFFF;
+    font-size: 14px;
+    font-family: 'PT Sans';
+}
+.p_down{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.p_down span{
+    width: auto;
+}
+
